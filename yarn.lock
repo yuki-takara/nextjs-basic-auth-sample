@@ -1998,6 +1998,11 @@ next@11.0.1:
     vm-browserify "1.1.2"
     watchpack "2.1.1"
 
+nextjs-basic-auth@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/nextjs-basic-auth/-/nextjs-basic-auth-0.1.2.tgz#723542ca2ba273e021aaa91bd477ac1029fb2663"
+  integrity sha512-BaXvqeT+uUrRh6l0RCOlDJhB1wUsppboi4eGBBLKAh/qDbipSQ32KY7M2Y1vLvqTYjPj1zYCq3E3Q7+S0flfXw==
+
 node-fetch@2.6.1:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
