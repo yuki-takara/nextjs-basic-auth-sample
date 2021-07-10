@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 
 MyApp.getInitialProps = async (appContext: AppContext) => {
   const { req, res } = appContext.ctx
-  if (req && res) {
+  if (req && res && process.env.ENABLE_BASIC_AUTH === 'true') {
     await basicAuthCheck(req, res)
   }
 
